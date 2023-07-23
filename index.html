@@ -7,6 +7,7 @@
     <link rel="icon" href="https://media.licdn.com/dms/image/D5603AQH-Ou0A6Mq4hg/profile-displayphoto-shrink_200_200/0/1677161979839?e=1683763200&v=beta&t=-Qt2JphJgwKxS3xryow14nGiSLbhk8WQtYGT9i8-YuI" type="image/icon type">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <header class="bg-dark" style="position: fixed; width: 100%; z-index: 1;">
@@ -46,13 +47,13 @@
       </div>
     </header>
 
-    <section id="home-section" style="padding-top: 6em;">
+    <section id="home-section" style="padding-top: 6em; height: 600px;">
       <div class="container">
         <div class="row align-items-center">
 
           <div class="col-md-6 ">
             <img src="dp.jpeg"
-            class="img-fluid rounded-circle" style="margin-bottom: 10px; height:fit-content; width:fit-content;">
+            class="img-fluid rounded-circle mt-5" style=" height:400px; width:400px;">
           </div>
           <div class="col-md-6">
             <h4 class="pt-4"><br>Student at St Joseph's College Of Engineering And Technology</h4>
@@ -117,48 +118,75 @@
 
     <section class="bg-white p-5" id="Education-section">
       <div class="container">
-        <h1 class="text-center">Education</h1>
+        <h1 class="text-center">Skills</h1>
 
         <div class="row mt-5">
 
-          <div class="col-md-4">
+          <div class="col-md-3">
 
-            <div class="card"  >
-              <div class="m-auto">
-                <image src="https://kumarakomskmps.com/wp-content/uploads/2018/05/cam.jpg" alt="SKM" style="width: 100%; height: 200px; object-fit: cover; object-position: center"></image>
-              </div>
-             <div class="card-body">
-                <h5 class="card-title">SKM Public School</h5>
-                <p class="card-text">Have Completed 1-10th in SKM Public School which is in Kumarakom</p>
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img id="skills" src="icons8-html-5-100.svg" alt="Avatar" style="height: 150px; width: 150px;">
+                </div>
+                <div class="flip-card-back">
+                  <h1>HTML</h1>
+                  <p>cards are in work!!</p>
+                </div>
               </div>
             </div>
+
           </div>
 
-          <div class="col-md-4">
+          <div class="col-md-3">
 
-            <div class="card" >
-              <div class="m-auto">
-                <img class="card-img-top" src="http://nss.org.in/wp-content/uploads/2018/09/Kidangoor-HSS.jpg" alt="NSS Kidangoor" style="width: 100%; height:200px;">
-              </div>
-             <div class="card-body">
-                <h5 class="card-title">NSS Kidangoor</h5>
-                <p class="card-text">Have completed Highschool Education(+1 +2) in Science Stream in Nss Kidangoor </p>
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <div class="icon-container">
+                    <img id="skills" src="css3-02-svgrepo-com.svg" alt="Avatar" style="height: 150px; width: 150px;">
+                  </div>
+                </div>
+                
+                <div class="flip-card-back">
+                  <h1>CSS</h1>
+                </div>
               </div>
             </div>
+
           </div>
 
-          <div class="col-md-4">
+          <div class="col-md-3">
 
-            <div class="card"  >
-              <div class="m-auto">
-                <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/SJCET_PALAI_College_Front_View.JPG/1024px-SJCET_PALAI_College_Front_View.JPG" alt="SJCET" style="width: 100%; height: 200px; object-fit: cover; object-position: center">
-              </div>
-             <div class="card-body">
-                <h5 class="card-title">SJCET</h5>
-                <p class="card-text">Have enrolled in BTech in Computer Science and Engineering in 2021</p>
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img id="skills" src="js01-svgrepo-com.svg" alt="Avatar" style="height: 150px; width: 150px;">
+                </div>
+                <div class="flip-card-back">
+                  <h1>JavaScript</h1>
+                </div>
               </div>
             </div>
+
           </div>
+
+          <div class="col-md-3">
+
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img id="skills" src="bootstrap-svgrepo-com.svg" alt="Avatar" style="height:150px; width: 150px;">
+                </div>
+                <div class="flip-card-back text-center">
+                  <h1>BOOTSTRAP</h1>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+
   
         </div>
       </div>
